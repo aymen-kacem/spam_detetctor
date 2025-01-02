@@ -66,39 +66,6 @@ Trains a Logistic Regression model.
 
 Evaluates the accuracy of the model.
 
-- 🧪 Example
-  
-Sample output from running the script:
-
-import data: 
-
-     v1                                                 v2
-     
-0   ham  Go until jurong point, crazy.. Available only ...
-
-1  spam  Free entry in 2 a wkly comp to win FA Cup fina...
-
-le nombre de valeur null:
-
-v1    0
-
-v2    0
-
-dtype: int64
-
-data apres la lavage:
-
-     v1                                                 v2
-     
-0   ham  Go until jurong point, crazy.. Available only ...
-
-data apres la creation du colonne:
-
-     v1                                                 v2  label
-     
-0   ham  Go until jurong point, crazy.. Available only ...      1
-
-
 - 📦 Project Structure
 
 ├── DataHandler.py           # Data cleaning and preprocessing class
